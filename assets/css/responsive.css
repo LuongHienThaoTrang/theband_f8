@@ -1,0 +1,120 @@
+
+/* RESPONSIVE
+    PC: >= 1024px
+    Tablet: >= 740px & < 1024px
+    Mobile: < 740px
+*/
+
+/* PC: >1024px */
+@media (min-width: 64em) {
+    .memu-mobile-btn {
+        display: none;
+    }
+}
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+    #nav .subnav li a {
+        padding: 5px 12px;
+    }
+    .content-section .place-buy-btn {
+        padding: 15px 16px;
+    }
+    .contact-content .contact-info {
+        line-height: 2;
+    }
+    .contact-form .submit-form {
+        padding: 16px;
+    }
+    .socials-list a {
+        margin: 0 8px;
+    }
+    .copy-right a {
+        /* Khi ta padding mà muốn đẩy xuống thêm 1 chút thêm
+        display: inline-block; thì nó đẩy xuống nên kết hợp với padding */
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+/* Tablet: >= 740px & < 1024px */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content .content-section {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .memu-mobile-btn {
+        display: none;
+    }
+}
+/* Mobile: < 740px */
+@media (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav li a {
+        padding: 5px 41px;
+        color: #fff;
+    }
+    #nav .subnav > li:hover a {
+        color: #000;
+        background-color: #ccc;
+    }
+    #content .members-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .member-item .member-img {
+        width: 60%;
+        height: 60%;
+    }
+    #content .content-section {
+        overflow: hidden;
+        padding: 64px 16px;
+    }
+    .content-section .places-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-section .place-buy-btn {
+        width: 100%;
+    }
+    .contact-content .contact-info {
+        margin-bottom: 32px;
+    }
+    .mt-16 {
+        margin-top: 16px;
+    }
+    .s-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .s-full-width {
+        width: 100%;
+    }
+    .s-col-full {
+        width: 100%;
+    }
+    .s-mb-16 {
+        margin-bottom: 16px;
+    }
+    .s-mb-8 {
+        margin-bottom: 8px;
+    }
+
+}   
